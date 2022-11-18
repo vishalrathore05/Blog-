@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @order_receipt %>
+
+<div>
+  <%= link_to "Edit this order receipt", edit_order_receipt_path(@order_receipt) %> |
+  <%= link_to "Back to order receipts", order_receipts_path %>
+
+  <%= button_to "Destroy this order receipt", @order_receipt, method: :delete %>
+</div>

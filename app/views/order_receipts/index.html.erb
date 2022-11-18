@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Order receipts</h1>
+
+<div id="order_receipts">
+  <% @order_receipts.each do |order_receipt| %>
+    <%= render order_receipt %>
+    <p>
+      <%= link_to "Show this order receipt", order_receipt %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New order receipt", new_order_receipt_path %>

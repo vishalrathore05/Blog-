@@ -1,0 +1,2 @@
+module OrderReceiptsHelper
+end

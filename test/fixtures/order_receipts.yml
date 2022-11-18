@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  medical_name: MyString
+  Gst: MyString
+  Email_address: MyString
+  Time: 2022-08-10 11:45:53
+
+two:
+  medical_name: MyString
+  Gst: MyString
+  Email_address: MyString
+  Time: 2022-08-10 11:45:53

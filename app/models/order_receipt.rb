@@ -1,0 +1,3 @@
+class OrderReceipt < ApplicationRecord
+   
+end
